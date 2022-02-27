@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+   user-select: none;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color: #30323D; 
+  font-family: 'Oxygen', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4D5061;
+  opacity: 0.9;
+  min-height: 80px
+}
+
+li {
+  float: left;
+  font-size: 22px;
+  border-radius: 8px; display: block;
+  margin-top: 15px; margin-bottom: 10px; height: 20px; line-height: 20px;
+  margin-left: 10px
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  border-radius: 8px;
+}
+
+li a:hover:not(.active, .ref) {
+   background-color: #9ea6b3;  border-radius: 8px;
+}
+
+.active {
+  background-color: #8BAEDF;  border-radius: 8px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+div[class^="fitem"] {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.fitem{
+  margin-top: -400px;
+  display: relative;
+  text-align: left;
+  padding-left: 60px;
+    width: 53vw;
+}
+
+.fitem p{
+  color: #C8DCF7;
+  font-size: 35px; 
+  text-align: left;
+  margin: 0;
+}
+
+h2{
+    text-align: left;
+  text-shadow: 15px 15px 14px rgba(0, 0, 0, 0.5);
+  font-size: 120px; margin: 0; margin-top: 40px
+}
+
+.fitem2{
+ margin-top: -400px;
+}
+
+.fitem2 img{
+  width: 100%;
+min-width: 32vw
+}
+
+.log{
+  display: block;
+  background-color: #8F8B80;
+  text-decoration: none;
+  width: 45%;
+  margin-top: 45px;
+  padding: 16px;
+  padding-bottom: 20px;
+  color: white;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+
+.log:hover{
+  box-shadow: 0px 20px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  color: #8F8B80;
+  opacity: 0.9
+}
+
+.sign-in {
+    background: rgba(255, 255, 255, 0.25);
+    display: block;
+    border-radius: 40px;
+    width: 40vw;
+    padding: 20px;
+    padding-bottom: 90px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+#sign-username {
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 11px 30px;
+    width: 300px;
+    background: none;
+    margin: 20px auto;
+    transition: 0.25s;
+    color: white;
+}
+
+#sign-password {
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 11px 30px;
+    width: 300px;
+    background: none;
+    margin: 20px auto;
+    transition: 0.25s;
+    color: white;
+    font-size: 15px
+}
+
+h3{
+  color: white;
+  font-size: 6vh
+}
+
+.switch{
+  color: white;
+  font-style: italic
+}
+
+.login {
+    background: rgba(255, 255, 255, 0.25);
+    display: block;
+    border-radius: 40px;
+    width: 40vw;
+    padding: 20px;
+    padding-bottom: 90px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 30vw;
+    margin-right: 30vw;
+    box-shadow:  50px 30px 10px 10px rgba(189, 204, 224, 0.4), -50px -30px 10px 10px rgba(216, 212, 196, 0.4);
+  border-top: 4px white solid;
+  border-left: 4px white solid
+}
+
+#log-username {
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 11px 30px;
+    width: 300px;
+    background: none;
+    margin: 20px auto;
+    transition: 0.25s;
+    color: white;
+}
+
+#log-password {
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 11px 30px;
+    width: 300px;
+    background: none;
+    margin: 20px auto;
+    transition: 0.25s;
+    color: white;
+    font-size: 15px
+}
+
+.sub{
+  background-color: #CAC09B;
+  border: 0
+}
+
+.sub:hover{
+  background-color: white;
+  color: #8e835d;
+  font-weight: bold;
+  opacity: 0.7
+}
+
+h1{
+  text-align: center;
+  color: #CAC09B;
+  margin-top: 40px;
+  font-size: 35px;
+  text-shadow: 0px 10px 14px rgba(0, 0, 0, 0.5);
+}
+
+#HCB_comment_box p{
+  color: black;
+  width: 50vw; margin: 0 auto;
+}
+
+#HCB_comment_box{
+    background-color: #D0DCE8;
+  padding: 40px; border-radius: 20px
+}
